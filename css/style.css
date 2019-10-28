@@ -1,0 +1,112 @@
+:root{
+    --primary-color:#fff;
+    --secondary-color: blue;
+    --btn-color-1:red;
+    --btn-color-2:blue;
+    --btn-color-3:black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p-1{
+    padding: 1.5rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-3{
+    padding: 3rem;
+}
+.py-1{
+    padding:1.5rem 0;
+}
+.py-2{
+    padding:2rem 0;
+}
+.py-3{
+    padding:3rem 0;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+}
+header{
+    height: 100vh;
+}
+.background{
+    position: absolute;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.95), rgba(255, 051, 20, 0.7)),
+    url('../img/background.jpg') center center/cover;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.container h1{
+    color: #fff;
+    text-transform:uppercase;
+    overflow: hidden;
+}
+#login-form{
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+.title h2,
+.title p{
+    padding: 1rem 0;
+}
+#login-form .social-media{
+display: flex;
+justify-content: space-around;
+align-content: center;
+flex: 1;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-dark{
+    background: var(--btn-color-3);
+}
+.btn-blue{
+    background: var(--btn-color-2);
+    margin-right: 0.5rem;
+}
+.btn-red{
+    background:var(--btn-color-1);
+    margin-left:0.5 rem;
+}
+.fill{
+    margin-top: 1rem;
+}
+.username,
+.password{
+    width: 100%;
+    height: 2rem;
+}
+.sign-up span{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
