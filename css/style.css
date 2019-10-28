@@ -129,7 +129,7 @@ margin: 20px 0;
 }
 .seperator >div >span{
     position: absolute;
-    margin-top: -7px;
+    margin-top: 7px;
     background: white;
     padding: 2px 5px;
 }
